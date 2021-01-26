@@ -6,9 +6,10 @@ class KubectlDev < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/warm-metal/kubectl-dev/releases/download/v0.1.1"
+    root_url "https://github.com/warm-metal/homebrew-rc/releases/download/kubectl-dev-0.1.1"
     cellar :any_skip_relocation
-    sha256 "62bffb4e4715dc400c5cec26136fb8c5b2a7b0dcaa426fef066eb5cbc5ae11d2" => :big_sur
+    sha256 "1b27676029c109409999a9763c1bca69d0510bc6ea0246b74b44c6ba4cb73e92" => :catalina
+    sha256 "7740fa754bcfba5d3095facbc3643c7487696d6b9a94a5337d2b361630234358" => :x86_64_linux
   end
 
   depends_on "go" => :build
