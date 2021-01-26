@@ -1,4 +1,4 @@
-# Warm-metal Rc
+# Warm-metal RC
 
 ## How do I install these formulae?
 `brew install warm-metal/rc/<formula>`
